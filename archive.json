@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-10-26T00:38:15.458672+00:00",
+  "timestamp": "2021-11-16T00:39:25.510322+00:00",
   "repo": "cfrg/draft-irtf-cfrg-voprf",
   "labels": [
     {
@@ -4125,6 +4125,54 @@
           "updatedAt": "2021-10-14T17:38:03Z"
         }
       ]
+    },
+    {
+      "number": 296,
+      "id": "I_kwDOBphpts4-0BwD",
+      "title": "Add more prose",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-voprf/issues/296",
+      "state": "OPEN",
+      "author": "chris-wood",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Each function would benefit from a description of what's happening, and why. ",
+      "createdAt": "2021-11-15T15:56:41Z",
+      "updatedAt": "2021-11-15T15:56:41Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 297,
+      "id": "I_kwDOBphpts4-0CP-",
+      "title": "Reconsider batch presentation",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-voprf/issues/297",
+      "state": "OPEN",
+      "author": "chris-wood",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "The current document focuses on non-batch evaluation as the common case. We describe how to batch [in a subsection](https://cfrg.github.io/draft-irtf-cfrg-voprf/draft-irtf-cfrg-voprf.html#section-3.3.2.2.1), though it is somewhat hidden. It's not clear to me that making batched evaluations the single (default) API would be cleaner or simpler. Maybe there's another way to help improve presentation clarity here.",
+      "createdAt": "2021-11-15T15:58:40Z",
+      "updatedAt": "2021-11-15T15:58:40Z",
+      "closedAt": null,
+      "comments": []
+    },
+    {
+      "number": 298,
+      "id": "I_kwDOBphpts4-0Cs2",
+      "title": "Consider separating core algorithms from serialization details",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-voprf/issues/298",
+      "state": "OPEN",
+      "author": "chris-wood",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Since this specification defines a protocol, the API uses byte strings along the abstraction boundary. This means the implementation of core functions, like Blind, Evaluate, etc, all deal with de/serialization. It might be cleaner if we isolated the core cryptographic algorithms from the spec, i.e., those whose inputs are implementation specific, from the rest. ",
+      "createdAt": "2021-11-15T16:00:24Z",
+      "updatedAt": "2021-11-15T16:00:24Z",
+      "closedAt": null,
+      "comments": []
     }
   ],
   "pulls": [
