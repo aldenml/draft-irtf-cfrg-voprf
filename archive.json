@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2021-11-16T00:39:25.510322+00:00",
+  "timestamp": "2021-12-05T00:43:34.387834+00:00",
   "repo": "cfrg/draft-irtf-cfrg-voprf",
   "labels": [
     {
@@ -21067,6 +21067,48 @@
           "body": "",
           "createdAt": "2021-10-25T20:58:50Z",
           "updatedAt": "2021-10-25T20:58:50Z",
+          "comments": []
+        }
+      ]
+    },
+    {
+      "number": 299,
+      "id": "PR_kwDOBphpts4vYIIz",
+      "title": "Including voprf-ts, a typescript implementation.",
+      "url": "https://github.com/cfrg/draft-irtf-cfrg-voprf/pull/299",
+      "state": "MERGED",
+      "author": "armfazh",
+      "authorAssociation": "COLLABORATOR",
+      "assignees": [],
+      "labels": [],
+      "body": "",
+      "createdAt": "2021-12-03T19:39:25Z",
+      "updatedAt": "2021-12-03T19:40:34Z",
+      "baseRepository": "cfrg/draft-irtf-cfrg-voprf",
+      "baseRefName": "master",
+      "baseRefOid": "6ec89bf24664fe872e230f57fe2bca26a9ef04a8",
+      "headRepository": "armfazh/draft-irtf-cfrg-voprf",
+      "headRefName": "implCF",
+      "headRefOid": "891f52999ee820150346512a083bb119026bbd57",
+      "closedAt": "2021-12-03T19:40:34Z",
+      "mergedAt": "2021-12-03T19:40:34Z",
+      "mergedBy": "chris-wood",
+      "mergeCommit": {
+        "oid": "95b1411627ef64b3db791c3e65305cd856e3da70"
+      },
+      "comments": [],
+      "reviews": [
+        {
+          "id": "PRR_kwDOBphpts4xDk5r",
+          "commit": {
+            "abbreviatedOid": "891f529"
+          },
+          "author": "chris-wood",
+          "authorAssociation": "COLLABORATOR",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2021-12-03T19:40:27Z",
+          "updatedAt": "2021-12-03T19:40:27Z",
           "comments": []
         }
       ]
