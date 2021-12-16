@@ -5,10 +5,10 @@
 Network Working Group                                        A. Davidson
 Internet-Draft                                            Brave Software
 Intended status: Informational                          A. Faz-Hernandez
-Expires: 17 June 2022                                        N. Sullivan
+Expires: 19 June 2022                                        N. Sullivan
                                                                C.A. Wood
                                                         Cloudflare, Inc.
-                                                        14 December 2021
+                                                        16 December 2021
 
 
    Oblivious Pseudorandom Functions (OPRFs) using Prime-Order Groups
@@ -52,7 +52,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 17 June 2022.
+   This Internet-Draft will expire on 19 June 2022.
 
 Copyright Notice
 
@@ -1354,9 +1354,10 @@ def VerifiableFinalize(input, blind, pkS, evaluatedElement, blindedElement, pkS,
    k' = 1 / (k + H2(t))
 
    This transformation is undefined for values of k and t such that k +
-   H2(t) = 0.  For all other values, the distribution of k' through this
-   transformation is statistically close to the distribution of a
-   randomly sampled k' as output from GG.GenerateKeyPair.
+   H2(t) = 0.  Because only a single choice of k leads to this undefined
+   case, the distribution of k' defined via this transformation is
+   statistically close to the distribution of a randomly sampled k' as
+   output from GG.GenerateKeyPair.
 
    Note that one can also transform any non-zero 2HashDH private key k'
    into an equivalent 3HashSDHI private key k as follows:
